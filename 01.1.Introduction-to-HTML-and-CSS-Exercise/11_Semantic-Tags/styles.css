@@ -1,0 +1,11 @@
+body{
+    background: #f9f7cf;
+    padding: 15px;
+    width: 480px;
+}
+
+header, 
+footer {
+    background: #f2dcbb;
+    padding: 5px 15px ;
+}
