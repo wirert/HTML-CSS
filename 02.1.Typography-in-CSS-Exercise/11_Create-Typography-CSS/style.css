@@ -1,0 +1,44 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    text-align: left;
+}
+
+thead {
+    background-color: lightgray;
+}
+
+td, th{
+    width: 33%;
+    padding: 0.4em 0.6em;
+    border: 1px solid lightgray;
+}
+
+tbody tr:nth-of-type(2n + 1){
+    background-color: #f0efef;
+}
+
+blockquote {
+    border-left: 3px solid rgb(221,221,221);
+    font-style: italic;
+    
+}
+
+blockquote p {
+    margin-left: 2em;
+}
+
+figcaption {
+    text-align: right;
+} 
