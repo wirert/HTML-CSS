@@ -1,0 +1,9 @@
+html {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5em;
+    -webkit-font-smoothing: antialiased;
+}
+
+input, button, textarea, select {
+    font: inherit;
+  }

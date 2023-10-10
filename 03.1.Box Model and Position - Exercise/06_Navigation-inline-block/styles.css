@@ -1,0 +1,23 @@
+html {
+    margin: 50px;
+}
+
+nav * {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+header {
+    border-bottom: 2px solid black;
+    margin-bottom: 40px;
+}
+
+.site-title {
+    font-size: 36px;
+    margin-right: 50px;
+}
