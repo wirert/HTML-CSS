@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: Helvetica, sans-serif;
+    width: 90%;
+    margin: 2em auto;
+    font-size: 0.8rem;
+}
+
+main {
+    display: inline-block;
+    width: 70%;
+}
+
+aside {
+    width: 20%;
+    float: right;
+    margin-right: 3em;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+
+p, figcaption {
+    margin: 1.5em 0;
+}
+
+figcaption {
+    float: right;
+    padding-right: 1em;    
+}
+
+blockquote {
+    border-left: 2px solid darkgray;
+    width: 50%;
+    float: right;
+    padding-left: 1.5em;
+    margin-left: 1em;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
+a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+img {
+    background-color: rgb(255, 255, 255) ;
+    border: 2px solid black;
+    padding: 0.2em;
+    box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.25);  
+}
+
+.img-right {
+    float: right;
+    margin: 1.5em 0 1em 1em;
+}
+
+.img-left {
+    float: left;
+    margin: 1.5em 1em 1em 0;
+}
+
+.main-header {
+    border-bottom: 2px solid black;
+    position: relative;
+    margin-top: 3em;
+}
+
+.main-header * {
+    display: inline-block;
+    margin-left: 0.5em;
+}
+
+.main-header p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 700;
+    margin: 0;
+}
+
+.main-header nav {
+    position: absolute;
+    right: 0;
+    top: -0.8em;
+}
+
+.main-header a {
+    padding-bottom: 1em;
+}

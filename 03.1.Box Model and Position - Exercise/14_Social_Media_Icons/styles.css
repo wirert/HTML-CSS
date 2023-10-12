@@ -1,0 +1,42 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+ul{
+    display: inline-block;    
+}
+
+li{
+    display: inline-block;           
+    margin: 10px;
+    line-height: 0%; 
+    text-align: center;
+   
+}
+
+a{   
+    background-color: lightgray;
+    color: rgb(63, 63, 63);
+    padding: 10px;
+    margin: 0;       
+    border-radius: 50%;
+}
+
+i{
+    width: 1rem;
+    height: 1rem;
+}
+
+.facebook:hover{
+color: rgb(51, 110, 158);
+}
+.twitter:hover{
+    color: rgb(4, 186, 186);
+}
+.google:hover{
+    color: rgb(207, 3, 3);
+}
+.linkedin:hover{
+    color: rgb(1, 112, 112);
+}
+.instagram:hover{
+    color: rgb(1, 112, 112);
+}
