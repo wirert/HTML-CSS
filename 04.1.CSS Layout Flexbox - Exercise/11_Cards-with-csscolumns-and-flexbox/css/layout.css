@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(238, 238, 238);
+    width: 40vw;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 2em 0;
+    margin: 0 auto;
+    
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.6em;
+    font-weight: 500;
+    padding: 0.5em 0;
+}
+
+
+.cards-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: 0 auto;
+    max-height: 110vh;
+    overflow: hidden;
+}
+
+.card {
+    width: 25%;
+    padding-left: 0.2em;
+}
+
+.masonry {
+    flex-direction: column;   
+    justify-content: flex-start;     
+    align-content: flex-start;
+    max-height: 100vh;
+}
+
+.layout {
+    margin: 0 auto;
+}
+
