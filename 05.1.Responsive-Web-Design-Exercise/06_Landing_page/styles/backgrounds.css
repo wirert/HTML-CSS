@@ -1,0 +1,63 @@
+.newsletter {
+  color: white;
+  background-color: rgba(92, 0, 128, 1);
+  opacity: 0.9;
+  background: radial-gradient(
+      circle,
+      transparent 20%,
+      rgba(92, 0, 128, 1) 20%,
+      rgba(92, 0, 128, 1) 80%,
+      transparent 80%,
+      transparent
+    ),
+    radial-gradient(
+        circle,
+        transparent 20%,
+        rgba(92, 0, 128, 1) 20%,
+        rgba(92, 0, 128, 1) 80%,
+        transparent 80%,
+        transparent
+      )
+      40px 40px,
+    linear-gradient(rgba(98, 0, 136, 1) 3.2px, transparent 3.2px) 0 -1.6px,
+    linear-gradient(90deg, rgba(98, 0, 136, 1) 3.2px, rgba(92, 0, 128, 1) 3.2px) -1.6px
+      0;
+  background-size: 80px 80px, 80px 80px, 40px 40px, 40px 40px;
+}
+
+.comments:before {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 0;
+  z-index: 0;
+  width: 100vw;
+  height: 100%;
+  opacity: 0.2;
+
+  background-color: #fbfbfc;
+  background-image: linear-gradient(0deg, #fbfbfc 50%, #c6c6c7 50%);
+  background-size: 31px 31px;
+}
+
+.site-footer-title::before,
+.team::before,
+.site-header::before {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100%;
+  opacity: 0.3;
+  background: linear-gradient(135deg, #cdcdcf55 25%, transparent 50%) -14px 0/
+      28px 28px,
+    linear-gradient(225deg, #cdcdcf 25%, transparent 25%) -14px 0/ 28px 28px,
+    linear-gradient(315deg, #cdcdcf55 25%, transparent 25%) 0px 0/ 28px 28px,
+    linear-gradient(45deg, #cdcdcf 25%, #e5e5f7 25%) 0px 0/ 28px 28px;
+}
+
+.site-footer-title::before {
+  box-shadow: 0 0 1em 0.5em rgba(0, 0, 0, 0.5) inset;
+}

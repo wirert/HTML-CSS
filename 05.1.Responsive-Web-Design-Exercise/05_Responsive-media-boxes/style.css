@@ -1,0 +1,56 @@
+html *, *:before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font: 16px/1.5 Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+}
+
+h2 {
+    font: 1em/1.2 Georgia, serif;
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+
+.card {
+    margin: 1em;
+    background-color: rgb(255, 255, 255) ;
+    max-width: 30em;
+    overflow: hidden;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0.2em rgba(0, 0, 0, 0.3);
+}
+
+.card-image {
+    position: relative;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card-content {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background-color: rgb(0, 153, 0) ;
+    color: white;
+    line-height: 1.2;
+    border-radius: 0.3em;
+    margin: 1em;
+    align-self: flex-end;    
+}

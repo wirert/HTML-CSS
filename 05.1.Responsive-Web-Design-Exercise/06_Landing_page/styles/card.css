@@ -1,0 +1,48 @@
+.card {
+  flex-basis: 15em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.card > * {
+  margin-bottom: 1em;
+}
+
+.card .profile-picture {
+  position: relative;
+  aspect-ratio: 1/1;
+  max-width: 8rem;
+  overflow: hidden;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px double whitesmoke;  
+}
+
+.card-desc {
+    font-style: italic;
+}
+
+.card h6 {
+    margin-bottom: 0;
+}
+
+.card img {
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-45%);
+}
+
+.comment-member .card-title {
+  order: 4;
+}
+
+@media (max-width: 400px) {
+    .card {
+      flex: 1 1 10em;
+    }
+  }

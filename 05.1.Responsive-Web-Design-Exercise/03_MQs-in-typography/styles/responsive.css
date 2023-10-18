@@ -1,0 +1,13 @@
+@media (max-width: 750px) {
+    aside {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 350px) {
+    blockquote {
+         width: 100%;
+         float: none;
+         margin-left: 0;
+    }
+}

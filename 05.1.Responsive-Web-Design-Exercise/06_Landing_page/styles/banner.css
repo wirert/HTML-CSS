@@ -1,0 +1,47 @@
+.site-banner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 2em;
+    
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 30em;
+    margin-right: 3em;
+}
+
+.globe{
+    max-width: 12em;
+    flex: 0 1 6em;
+    margin-right: auto;
+    
+}
+
+.banner-content h2 {
+    margin-top: 0;
+}
+
+.banner-content a {
+    border: 2px solid black;
+    padding: 0.3em 1.0em;
+    border-radius: 0.3em;
+    align-self: flex-start;
+    font-size: 0.8em;
+}
+
+@media (max-width: 400px) {
+    .globe {
+        max-width: 10em;
+    }
+
+    .banner-content {
+        margin-right: 1em;
+    }
+
+    .banner-content a {
+        font-size: 0.6em;
+    }
+}
