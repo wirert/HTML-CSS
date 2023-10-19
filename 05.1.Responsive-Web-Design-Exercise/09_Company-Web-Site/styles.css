@@ -1,58 +1,82 @@
 * {
   box-sizing: border-box;
+  
 }
 /* Fake image, just for this example */
 .fakeimg {
   background-color: #aaa;
   width: 100%;
   padding: 20px;
+  margin-bottom: 1em;
 }
 
 body {
-/* TODO
-CSS Grid. Display grid. 
-Define the grid areas. 
-Create two unequal columns that sits next to each other 
-*/
+  font: 16px/1.2 "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90vw;
+  margin: 0 auto;
+  background-color: #f2f1f1;
 }
 
-/* TODO Reference the grid area */
-/* TODO Reference the grid area */
-/* TODO Reference the grid area */
-/* TODO Reference the grid area */
-/* TODO Reference the grid area */
-
-body {
-/* TODO style the body*/
+body header,
+body nav,
+body footer {
+  width: 100%;
 }
 
-header { 
-/* TODO style the header */
-}
-
-nav {
-/* TODO style the navigation bar*/
-}
-
-nav a {
-/* TODO style the navigation bar links*/
+aside, main {
+  padding: 1em;
 }
 
 aside {
-/* TODO style the sidebar*/
+  flex: 1 1 30%;
+  background-color: #e4e3e3;
 }
 
 main {
-/* TODO style the main*/
+  flex: 1 2 70%;
+  background-color: white;
 }
 
-footer{
-/* TODO style the footer*/
+header {
+  background-color: #00ab83;
+  color: whitesmoke;
+  text-align: center;
+  padding: 4em 1em;
 }
 
-/* TODO Responsive layout - when the screen is less than 700px wide, 
-make the two columns stack on top of each other instead of next to each other */
+footer {
+  background-color: #ccc;
+  padding: 2em 1em;
+  text-align: center;
+}
 
-/* TODO Responsive layout - If the screen is smaller than 700px, 
-display the navigation bar links as block and center the text */
+nav {
+  display: flex;
+  gap: 1em;
+  background-color: rgb(62, 62, 62);
+}
 
+p {
+  padding-bottom: 1.2em;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 0.5em 1em;
+}
+
+@media (max-width: 700px) {
+  nav {
+    display: block;
+    text-align: center;
+  }
+
+  aside, main {
+    flex: 0 0 100%;
+  }
+}

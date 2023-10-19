@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font: 18px/1.25 Inter, sans-serif;
+    /* letter-spacing: 0.02em; */
+}
+
+body {
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 2em;
+}
+
+img {
+    display: block;
+    object-fit: cover;
+    width: 11rem;
+    height: 11rem;
+    flex-shrink: 0;   
+    border-radius: 50%;
+    
+}
+
+h1 {
+    font-size: 1.6em;
+    padding-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.4em;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+
+
+p {
+    padding-bottom: 2em;
+    color: #595959;
+}
+
+.creator-card h1 {
+    font-size: 2.5em;
+    padding-bottom: 1.4em;
+}
+
+.container {
+    max-width: 74em;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.5em;
+
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 0 0.5em 0.2em rgba(0, 0, 0, 0.2);
+}
+
+.container .forum {
+    flex: 0 1 67%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    gap: 1.5em;
+}
+
+.container .creator-card {
+    flex: 0 1 30%
+}
+
+.forum-card {
+    display: flex;
+    gap: 2em;
+    /* justify-content: flex-start; */
+    padding: 3em;
+    align-items: center;
+}
+
+
+
+/* .forum-card .forum-card-content {
+    
+    margin: 2em;
+} */
+
+.creator-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1.5em;
+    padding-top: 2.5em;
+}
+
+.creator-card > p {
+    flex-grow: 1;
+}
+
+.creator-card > div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2em;
+    border-top: 2px solid #c0c0c0;
+    padding-top: 1em;
+}
+
+.creator-card .profile-image {
+    width: 5rem;
+    height: 5rem;
+    filter: grayscale(1);
+}
+
+.creator-card .creator-name p {
+    font-size: 0.68em;    
+    padding-top: 0.2em;
+}
