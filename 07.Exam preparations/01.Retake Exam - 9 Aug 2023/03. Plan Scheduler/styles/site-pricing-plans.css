@@ -1,0 +1,65 @@
+.site-plans {
+    background-color: #F5F5F5;
+}
+
+.pricing-plans {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    padding: 3em;
+}
+
+.pricing-plans > div {
+    flex-basis: 33%;
+}
+
+.pricing-plans .plan-info {
+    font-size: 0.95em;
+}
+
+.pricing-plans .plan-info p {
+    line-height: 1.2;
+}
+
+.pricing-plans .plan-info h2 {
+    font-size: 2em;
+    padding-top: 0.2em;
+    padding-bottom: 1.5em;
+}
+
+.pricing-plans .plan {
+    text-align: center;    
+}
+
+.pricing-plans > :nth-child(2) {
+    background-color: #FF7C4C;
+}
+
+.pricing-plans>:last-child {
+    background-color: black;
+    color: white;
+}
+
+.plan p {
+    padding-bottom: 0.6em;
+}
+
+.plan h3 {
+    font-size: 4em;
+    font-weight: 200;
+    padding: 0.4em 0;
+}
+
+.plan h4 {
+    font-size: 1.5em;
+}
+
+.plan p:last-of-type {
+    font-weight: bold;
+}
+
+.plan .btn {
+    margin-top: 3em;
+}
+

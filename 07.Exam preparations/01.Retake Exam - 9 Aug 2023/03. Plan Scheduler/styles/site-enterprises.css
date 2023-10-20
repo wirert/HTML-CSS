@@ -1,0 +1,47 @@
+.enterprises {
+    background-color: #D9D9D9;
+}
+
+.site-enterprises {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    padding: 2em 0;
+}
+
+.enterprise {
+    display: flex;
+    align-items: stretch;
+    gap: 1.5em;
+    
+}
+
+.enterprise img {
+   display: block;
+    width: 500px;
+    height: 340px;
+    object-fit: cover;    
+}
+
+.enter-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+}
+
+.enter-content p {
+    padding: 0;
+    color: rgb(124, 123, 123);
+}
+
+
+
+.enter-content a {
+    font-weight: bold;
+    padding-top: 0.5em;
+}
+
+.enter-content h2 {
+    font-size: 2em;
+}

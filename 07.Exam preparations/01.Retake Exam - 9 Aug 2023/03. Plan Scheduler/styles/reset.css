@@ -1,0 +1,19 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a, li {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+a {
+    display: inline-block;
+}

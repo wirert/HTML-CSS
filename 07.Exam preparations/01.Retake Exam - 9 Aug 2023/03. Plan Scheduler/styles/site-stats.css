@@ -1,0 +1,29 @@
+.site-stats {
+    background-color: #fff;
+}
+
+.site-stats .stats {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 2em;  
+    padding: 1em;  
+}
+
+.stats h3 {
+    font-size: 3em;
+    color: #FF7C4C;
+    padding: 1.2em 0 0.6em 0;
+
+}
+
+.stats h5 {
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+.stats p {
+    font-size: 0.7em;
+    color: rgb(124, 123, 123);
+    padding-bottom: 3em;
+}
