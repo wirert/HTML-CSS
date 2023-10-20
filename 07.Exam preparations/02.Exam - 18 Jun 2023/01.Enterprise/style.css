@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 16px/1.2 Inter, sans-serif;
+    background-color: #D9D9D9;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+section.container {
+    max-width: 140em;
+    margin: 0 auto;
+    padding: 3em;
+    display: flex;
+    gap: 2em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 30%;
+
+    box-shadow: 2px 3px 5px 2px rgba(0,0,0,0.2);
+}
+
+.card-content {
+    padding: 2em;
+}
+
+.card-content p,
+.card-content h4 {
+    color: #595959;
+}
+
+.card-content > p {
+    padding-bottom: 2em;
+}
+
+.card-content h4 {
+    padding-bottom: 0.5em;
+}
+
+.card-content h2 {
+    font-weight: normal;
+
+    padding-bottom: 1em;
+}
+
+img.profile-image {
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+}
+
+img.card-image {
+    aspect-ratio: 1.73/1;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1em;
+    border-top: 2px solid black;
+}
+
+.card-footer p {
+    color: #999999;
+}
+
+.card-author {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.card-author h5 {
+    font-size: 1.2em;
+    font-weight: normal;
+}
