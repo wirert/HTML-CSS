@@ -1,0 +1,12 @@
+.site-header nav ul {
+    display: flex;
+    gap: 2.8em;
+}
+
+.site-header .login-btns {
+    display: flex;
+}
+
+.login-btns :last-child {
+    background-color: #ADE2DF;
+}

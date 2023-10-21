@@ -1,0 +1,61 @@
+body {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 85em;
+    margin: 0 auto;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 12em;
+    font-size: 0.9em;
+}
+
+.site-stats {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 4em 0;
+}
+
+
+.site-info {
+    background-color: #ADE2DF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+    padding-left: 2em;
+}
+
+.site-pricing-plans,
+.site-pricing-plans > * {
+    display: flex;
+}
+
+.site-pricing-plans,
+.pricing-plans-heading {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F3F5FA;
+}
+
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 2em;
+}
+
+.site-footer .social-icons {
+    display: flex;
+    gap: 1em;
+}
+

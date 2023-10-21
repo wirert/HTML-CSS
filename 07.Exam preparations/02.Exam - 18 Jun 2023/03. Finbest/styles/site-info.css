@@ -1,0 +1,34 @@
+.site-info img {
+    display: block;
+    max-width: 28%;
+    object-fit: cover;
+    border: 2px dashed #adacac;
+    padding: 0 2em;
+}
+
+.site-info-content {
+    max-width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    padding: 4em 0;
+}
+
+.site-info-content h2 {
+    font-size: 2.4em;
+    font-weight: 600;
+}
+
+.site-info-content h5 {
+    font-size: 1.1em;
+    padding-bottom: 0.4em;
+}
+
+.site-info-content a {
+    display: inline-block;
+    border-bottom: 1px solid black;
+    align-self: start;
+    padding-right: 0.1em;
+    padding-top: 2em;
+}

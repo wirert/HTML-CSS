@@ -1,0 +1,54 @@
+.site-banner {
+    background-color: #ADE2DF;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    padding: 6em 5em;
+}
+
+.site-banner .button {
+    background-color: black;
+    color: white;
+    font-size: 0.8em;
+    padding: 1.5em 3em;
+}
+
+.site-banner div {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.site-banner h2 {
+    font-size: 3.5em;
+    font-weight: 600;
+}
+
+.site-banner.banner1 {
+    gap: 1em;
+    justify-content: space-around;
+}
+
+.site-banner.banner1 div {
+    padding-top: 1em;
+}
+
+.site-banner.banner2 .banner2-container {
+    align-self: center;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: initial;
+}
+
+.banner2-container h2 {
+    line-height: 1.2;
+}
+
+.banner2-container p {  
+    font-size: 1.1em; 
+    padding: 0 1.8em 3em 1.8em;
+}

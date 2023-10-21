@@ -1,0 +1,95 @@
+.site-pricing-plans {
+    padding: 4em 0;
+    gap: 4em;
+}
+
+.pricing-plans-heading h2 {
+    display: inline-block;
+    background-color: #ADE2DF;
+    font-size: 0.8em;
+    font-weight: 500;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+.pricing-plans-heading p {
+    font-size: 2.2em;
+    font-weight: 600;
+}
+
+.pricing-plans {
+    border: 1px solid #DBDBDB;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.pricing-plans .pricing-plan {
+    flex-basis: 19%;
+
+    padding: 0 1.5em;
+    margin: 1.5em 0;
+    border-right: 1px solid #DBDBDB;
+}
+
+.pricing-plan .button {
+    background-color: #ADE2DF;
+    width: 100%;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.pricing-plans h3 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.pricing-plan p {
+    font-size: 0.9em;
+}
+
+.pricing-plan h4 {
+    font-size: 2em;
+    padding: 0.8em 0;
+}
+
+.pricing-plan span {
+    font-size: 0.4em;
+    font-weight: normal;
+}
+
+.pricing-plan ul {
+    border-top: 1px solid #DBDBDB;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    font-size: 0.8em;
+    line-height: 2;
+}
+
+.pricing-plans .pricing-plans-expand {
+    flex-basis: 43%;
+    background-color: #ADE2DF;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+}
+
+.pricing-plans-expand p {
+    font-size: 1.4em;
+    line-height: 1.1;
+}
+
+.pricing-plans-expand ul {
+    flex-grow: 1;
+    font-size: 0.9em;
+    line-height: 2;
+    padding-top: 2.5em;
+}
+
+.pricing-plans-expand .button {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+}
