@@ -1,0 +1,48 @@
+.background {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    aspect-ratio: 1/0.49;
+    color: white;
+    
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3em;
+    padding-top: 1em;
+}
+
+.site-logo {
+    width: 4em;
+    height: 4em;
+}
+
+.site-logo img {
+    width: 100%;
+    height: auto;
+}
+
+
+.site-header nav ul {
+    display: flex;
+    gap: 2em;
+    padding-bottom: 0.5em;
+}
+
+.banner {
+    width: 60%;
+    padding-top: 2em;
+}
+
+.banner h2 {
+    font-size: 2.6em;
+    padding-bottom: 0.5em;
+}
+
+.banner p {
+    width: 92%;
+}

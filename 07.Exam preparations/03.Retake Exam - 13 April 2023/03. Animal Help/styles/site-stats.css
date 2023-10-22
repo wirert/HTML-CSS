@@ -1,0 +1,28 @@
+.site-stats .stats-heading {
+    width: 40%;
+    
+}
+
+.stats-heading p {
+    letter-spacing: 1.1px;
+    font-weight: 600;    
+}
+
+.stats-heading h3 {
+    padding-bottom: 1.5em;
+}
+
+.site-stats .stat {
+    flex-basis: 25%;
+}
+
+.site-stats .stat .stat-icon  {
+    font-size: 3em;
+    color: #85DCFF;
+    padding: 0.8em;
+}
+
+.stat h4 {
+    font-size: 1.2em;
+    padding-bottom: 1em;
+}

@@ -1,0 +1,46 @@
+.site-friends {
+    border-top: 2px solid #CCCCCC;
+    text-align: center;
+    
+}
+
+.site-friends .friends {
+    padding-top: 2em;
+    padding-bottom: 2.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.friends .friend h2 {
+    font-size: 2.4em;
+    font-weight: normal;
+    color: #B0825C;
+    padding-bottom: 0.5em;
+}
+
+.friends .friend p {
+    font-size: 0.8em;
+    padding: 0 0.5em;
+}
+
+.friend-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+}
+
+.friends .icon {
+    width: 8em;
+    height: 8em;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #DDDDDD;
+}
+
+.friends .icon img {
+    width: 100%;
+    height: auto;
+    padding: 1.5em;
+}

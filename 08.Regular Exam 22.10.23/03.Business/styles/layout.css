@@ -1,0 +1,33 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.site-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.container {
+    width: 77%;
+    margin: 0 auto;
+}
+
+.site-info {
+    display: flex;
+    gap: 3em;
+    padding: 6em 0;
+}
+
+.site-footer, .site-contacts {
+    background-color: #171720;
+    color: #B3A6A8;
+}
+
+.site-footer {
+    border-top: 1px solid #3A3A41;
+}
+
+.site-footer .footer {
+    padding: 1em 0;
+}

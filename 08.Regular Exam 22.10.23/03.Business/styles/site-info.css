@@ -1,0 +1,23 @@
+.info-article {
+    flex-basis: 50%;
+}
+
+.info-article h2 {
+    font-size: 2.4em;
+    font-weight: normal;
+    padding-bottom: 0.5em;
+}
+
+.info-article p {
+    font-size: 0.8em;
+    padding-bottom: 3em;
+    padding-left: 0.5em;
+}
+
+.info-article .button {
+    border: 2px solid #B0825C;
+    color: #B0825C;
+    font-size: 0.9em;
+    font-weight: 600;
+    padding: 0.5em 1em;
+}

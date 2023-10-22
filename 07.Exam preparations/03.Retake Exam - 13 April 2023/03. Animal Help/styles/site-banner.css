@@ -1,0 +1,36 @@
+.site-banner .banner-content {
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    gap: 1.5em;
+}
+
+.banner-buttons {
+    display: flex;
+    gap: 1em;
+}
+
+a.button {
+    flex-grow: 1;
+    border: 1px solid black;    
+    border-radius: 8px;
+    text-align: center;
+    padding: 1em 2em;
+}
+
+.banner-buttons .button:first-child {
+    background-color: #fff;
+}
+
+.banner-buttons .button:nth-child(2) {
+    background-color: black;
+    color: white;
+}
+
+.site-banner h2 {
+    font-size: 2em;
+}
+
+.site-banner p {
+    padding-bottom: 0.5em;
+}
